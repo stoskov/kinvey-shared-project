@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<StackLayout  class="p-20">     
+    <ListView [items]="fleetlist">
+        <ng-template let-item="item">
+                <Label text="{{item.make}} {{item.model}}"></Label>
+        </ng-template>
+    </ListView>
+</StackLayout>
